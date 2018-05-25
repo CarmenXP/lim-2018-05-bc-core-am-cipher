@@ -1,0 +1,7 @@
+body{
+    background-image:url("file:///C:/Users/LuisHenriquez/Desktop/1r.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}

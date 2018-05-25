@@ -12,19 +12,27 @@
     <hr/>
     <p>Tomar en cuenta las siguientes indicaciones para el cumpleaños de Andrea,<strong>Una vez recibido el código</strong> </p> 
   </body>
+
     <ol>
     <li>Escribir el mensaje</li>
     <li>Considerar solo letras en mayuscula</li>
     </ol>
-    <form>
-      <label for="">Mensaje Original</label>
-      <input type="text"
+
+    <div>
+      <label for id="text1">Mensaje Original</label>
+      <input type="text"id="text1"placeholder="Escribe tu mensaje original">
     </br>
     </br>
     </br>
-      <label for="">Mensaje Cifrado</label>
-      <input type="text"
-    </form>
+      <label for="text2">Mensaje Cifrado</label>
+      <input type="text"id="text2">
+    </div>
+    </br>
+      <div>
+        <button id="cambio"> Cifrar</button>
+     </div>  
+ 
+
     <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -1,4 +1,6 @@
 
 
-let botones =document.getElementById(cambio);
+var botones =document.getElementById(cambio);
 botones.addEventListener("click",function(){})
+
+

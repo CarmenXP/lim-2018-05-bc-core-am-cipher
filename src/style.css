@@ -1,10 +1,11 @@
-h1 {color: white
+h1 {color:black;
 }
 
 body{
-    background-image:url("http://2.bp.blogspot.com/-NDATE_GIMtw/Uz-sEj1eYEI/AAAAAAAAHwM/WpTk7H-tos0/s1600/infantil-osito.jpg");
+    background-image:url("Imagenes/Fondo.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: center center;
+    background-size: cover;
     margin-right: 200px;
     background-attachment: fixed;
 }

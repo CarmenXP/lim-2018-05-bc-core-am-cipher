@@ -11,7 +11,6 @@ body{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    margin-right: 200px;
     background-attachment: fixed;
 }
 .cifrar{
@@ -27,8 +26,18 @@ body{
     background-color: #ea0b8c;
     font-weight: bold;
     width: 150px;
-    margin-left: 100px;
+    margin-right: 80px;
     padding: 10px;
     margin-top : 50px;
     
+}
+.center-align{
+    text-align: center
+}
+
+.contenido{
+    text-align: center
+}
+.respuesta1{
+    text-align: center
 }

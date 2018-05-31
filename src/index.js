@@ -1,5 +1,4 @@
 
-//
 // Asignamos todas las Variables 
 // Variable que permitirá obtener el texto de entrada del elemento mensaje
 let mensajeUsuario;

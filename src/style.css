@@ -1,6 +1,11 @@
-h1 {color:black;
-}
 
+.title {
+    font-weight: bold;
+  }
+h1 {
+    text-align: center; 
+    color:black;
+}
 body{
     background-image:url("Imagenes/Fondo.jpg");
     background-repeat: no-repeat;
@@ -8,4 +13,22 @@ body{
     background-size: cover;
     margin-right: 200px;
     background-attachment: fixed;
+}
+.cifrar{
+    background-color: #ea0b8c;
+    font-weight: bold;
+    width: 180px;
+    margin-left: 80px;
+    padding: 10px;
+    margin-top : 50px;
+    
+}
+.descifrar{
+    background-color: #ea0b8c;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 100px;
+    padding: 10px;
+    margin-top : 50px;
+    
 }

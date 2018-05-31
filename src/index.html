@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Feliz Día Andrea</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="Imagenes/candadito.ico">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cifrado Cesar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="Imagenes/candadito.ico">
+</head>
+
+  <h1>Cifrado Cesar</h1>
+  <hr/>
+  <h2>
     <center>
-    <h1>Bienvenida al Cumpleaños de Andrea </h1>
+    <img src="Imagenes/candado.png" width="150px" height="150px"/>
     </center>
-    <hr/>
-    <p>Tomar en cuenta las siguientes indicaciones para el cumpleaños de Andrea,<strong>Una vez recibido el código</strong> </p> 
+  </h2>
+  
+<body>
+  
+</body>
+<div class="contenido"> 
+  <label for="texto1">Mensaje : </label>
+  <input type="text" id="escribir" placeholder="Escribir Mensaje"> 
+  <input type="number"id="offset"></input>
+  <div>
+      <div class="center-align">
+   <button class = "cifrar" id="encode"> Cifrar</button>
+   <button class= "descifrar" id="decode"> Descifrar</button>
+  </br>
+  </div>
+  <div id="root"></div>
+  <p>Ver Resultado : </p>
+  <p id="respuesta"></p>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
   </body>
 
-    <ol>
-    <li>Escribir el mensaje</li>
-    <li>Considerar solo letras en mayuscula</li>
-    </ol>
-
-    <div>
-      <label for id="text1">Mensaje Original</label>
-      <input type="text"id="text1"placeholder="Escribe tu mensaje original">
-    </br>
-    </br>
-    </br>
-      <label for="text2">Mensaje Cifrado</label>
-      <input type="text"id="text2"placeholder ="Mensaje Modificado"
-    </div>
-    </br>
-      <div>
-        <button id="cambio"> Cifrar</button>
-     </div>  
-    <div id="root"></div>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
-  </body>
 </html>

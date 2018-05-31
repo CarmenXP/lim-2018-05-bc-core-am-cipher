@@ -1,6 +1,0 @@
-
-window.cipher = {
-  decode()
-
-};
-

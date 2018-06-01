@@ -16,8 +16,8 @@ btnCifrar.addEventListener('click', ()=> {
   //Creamos una variable donde se mostrara el mensaje cifrado
   mensajeUsuario = document.getElementById('escribir').value;
   numeroPosiciones=document.getElementById('offset').value;
-  cipher.encode(offset.value, mensajeUsuario);
-  document.getElementById('respuesta').innerHTML = btnCifrar;
+  cipher.encode(numeroPosiciones, mensajeUsuario);
+  document.getElementById('respuesta').innerHTML = mensajeCiyDe;
   
 })
 //Boton Decode
@@ -26,5 +26,5 @@ btnDescifrar.addEventListener('click', function () {
   mensajeUsuario = document.getElementById('escribir').value;
   numeroPosiciones=document.getElementById('offset').value;
   cipher.decode(offset.value,mensajeUsuario);
-  document.getElementById('respuesta').innerHTML = btnDescifrar;
+  document.getElementById('respuesta').innerHTML = mensajeCiyDe;
 });

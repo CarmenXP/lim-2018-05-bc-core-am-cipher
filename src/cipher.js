@@ -1,14 +1,45 @@
 window.cipher = {
-    // Creando objeto y funcion 
+    // Declaro los objetos 
     encode: (offset, string) => {
-      let numeroAscii;
-      let nuevonumeroAscii;
-      let letterAscii;
-      let textcod = '';
+      let codigoAscii;
+      let nuevoAscii;
+      let letraAscii;
+      let textoCodificado = '';
+    
       for (i = 0; i < string.length; i++) {
-        numberAscii = string.charCodeAt(i); // asigno una variable donde obtenga una caja que se
-        // almacene un texto y extraiga la posición ascii de cada letra que me da el arreglo(conjunto de espacios)
-        if (numberAscii >= 65 && numberAscii <= 90) {
-          newnumberAscii = (numberAscii - 65 + offset) % 26 + 65;
-          letterAscii = String.fromCharCode(newnumberAscii);
-      
+        numeroAscii = string.charCodeAt(i); 
+        if (numeroAscii >= 65 && numberAscii <= 90) {
+          nuevoAscii = (numeroAscii - 65 + offset) % 26 + 65;
+          letraAscii = String.fromCharCode(nuevoAscii);
+        }
+
+         textoCodificado=textoCodificado.concat(letraAscii); 
+      }
+
+      return textoCodificado;
+
+    },
+    decode: (offset, string) => {
+      let codigoAscii;
+      let nuevoAscii;
+      let letraAscii;
+      let textoCodificado = '';
+      for (i = 0; i < string.length; i++) {
+        numeroAscii = string.charCodeAt(i); 
+        if (numeroAscii >= 65 && numberAscii <= 90) {
+          nuevoAscii = (numeroAscii + 65 - offset) % 26 + 65;
+          letraAscii = String.fromCharCode(nuevoAscii);
+        }
+
+         textoCodificado=textoCodificado.concat(letraAscii); 
+      }
+
+      return textoCodificado;
+
+    },
+
+
+  }
+
+
+    

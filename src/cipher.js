@@ -6,10 +6,10 @@ window.cipher = {
       let letraAscii;
       let textoCodificado = '';
     
-      for (i = 0; i < string.length; i++) {
-        numeroAscii = string.charCodeAt(i); 
-        if (numeroAscii >= 65 && numberAscii <= 90) {
-          nuevoAscii = (numeroAscii - 65 + offset) % 26 + 65;
+      for (let i = 0; i < string.length; i++) {
+        codigoAscii= string.charCodeAt(i); 
+        if (codigoAscii >= 65 && codigoAscii <= 90) {
+          nuevoAscii = (codigoAscii - 65 + offset) % 26 + 65;
           letraAscii = String.fromCharCode(nuevoAscii);
         }
 
@@ -17,6 +17,7 @@ window.cipher = {
       }
 
       return textoCodificado;
+      
 
     },
     decode: (offset, string) => {
@@ -24,10 +25,11 @@ window.cipher = {
       let nuevoAscii;
       let letraAscii;
       let textoCodificado = '';
-      for (i = 0; i < string.length; i++) {
-        numeroAscii = string.charCodeAt(i); 
-        if (numeroAscii >= 65 && numberAscii <= 90) {
-          nuevoAscii = (numeroAscii + 65 - offset) % 26 + 65;
+    
+      for (let i = 0; i < string.length; i++) {
+        codigoAscii= string.charCodeAt(i); 
+        if (codigoAscii >= 65 && codigoAscii <= 90) {
+          nuevoAscii = (codigoAscii + 65 - offset) % 26 + 65;
           letraAscii = String.fromCharCode(nuevoAscii);
         }
 
@@ -35,8 +37,7 @@ window.cipher = {
       }
 
       return textoCodificado;
-
-    },
+    }
 
 
   }

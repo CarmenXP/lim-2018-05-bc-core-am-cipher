@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="Imagenes/candadito.ico">
 </head>
-
+<body>
   <h1>Cifrado Cesar</h1>
   <hr/>
   <h2>
@@ -17,28 +17,21 @@
     </center>
   </h2>
   
-<body>
-  
-</body>
 <div class="contenido"> 
   <label for="texto1">Mensaje : </label>
   <input type="text" id="escribir" placeholder="Escribir Mensaje"> 
   <label for="texto1">Offset : </label>
-  <input type="number"id="offset">
+  <input type="number" id="offset" placeholder="Selecciona Numero">
 </div>
-  <div>
-      <div class="center-align">
+  <div class="center-align">
    <button class = "cifrar" id="encode"> Cifrar</button>
    <button class= "descifrar" id="decode"> Descifrar</button>
-  </br>
   </div>
-  <div id="root"></div>
-  <center>
+<center>
   <p>Ver Resultado : </p>
   <p id="result"></p>
 </center>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
   </body>
-
 </html>

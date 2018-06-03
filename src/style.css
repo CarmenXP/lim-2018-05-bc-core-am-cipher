@@ -14,13 +14,12 @@ body{
     background-attachment: fixed;
 }
 .cifrar{
-    background-color: #ea0b8c;
-    font-weight: bold;
-    width: 180px;
-    margin-left: 80px;
-    padding: 10px;
-    margin-top : 50px;
-    
+        background-color: #ea0b8c;
+        font-weight: bold;
+        width: 180px;
+        margin-left: 80px;
+        padding: 10px;
+        margin-top : 50px;
 }
 .descifrar{
     background-color: #ea0b8c;

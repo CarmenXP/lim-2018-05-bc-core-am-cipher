@@ -5,17 +5,17 @@
 - El programa es capaz de cifrar y descifrar.
 
 ## Diagrama de flujo de la aplicación
-![diagrama_flujo](src/File/Diagrama-deflujo.jpg)
+![diagrama_flujo](src/file/Diagrama-de%20flujo.jpg)
 
 ## Funcionalidad 
 - vista inicio para acceder a encriptar o desencriptar frase según lo requiera el usuario
-![diagrama_flujo](src/File/Index.jpg)
+![diagrama_flujo](src/file/Index.jpg)
 
 - Vista Cifrada , se considero  mostrar los resultados en la misma página.
-![diagrama_flujo](src/File/Cifrar.jpg)
+![diagrama_flujo](src/file/Cifrar.jpg)
 
 - Vista Descrifrada , se considero  mostrar los resultados en la misma página.
-![diagrama_flujo](src/File/Diagrama-Descifrar.jpg)
+![diagrama_flujo](src/file/Descifrar.jpg)
 
 ## webSite
 * Puede ver el [Proyecto en vivo]

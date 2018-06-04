@@ -6,6 +6,12 @@ h1 {
     text-align: center; 
     color:black;
 }
+
+h2 {
+    text-align: center; 
+   
+}
+
 h3 {
     font-style: italic;
 
@@ -44,4 +50,8 @@ body{
 }
 .respuesta1{
     text-align: center
+}
+
+p{
+    text-align: center; 
 }

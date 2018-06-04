@@ -49,9 +49,11 @@ body{
     text-align: center
 }
 .respuesta1{
+    font-style: italic; 
     text-align: center
 }
 
 p{
+    font-style: italic;
     text-align: center; 
 }

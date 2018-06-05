@@ -1,5 +1,18 @@
 # Cifrado César
 
+## Preámbulo
+
+Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
+fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
+con amigos y familiares.
+
+Un gran problema es que pones tu alarma para levantarte temprano, sin embargo
+(como supondrás) eso nunca sucede y tu flacx es quien termina apagando la alarma
+y "de casualidad" revisando tus mensajes. Debido a que es algo sorpresa, decides
+crear una aplicación que te permita enviar mensajes cifrados y que las demás
+personas (partícipes de la fiesta) puedan tener una interfaz para
+descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
+
 ## Objetivo
 - Se nos pide crear una web la cual permitira a nuestros usuarios manejar una comunacion en codigo, que pida una frase al usuario y devuelva el mismo mensaje encriptado según el algoritmo de Cifrado César con el parámetro de desplazamiento de 33 espacios hacia la derecha
 - El programa es capaz de cifrar y descifrar.

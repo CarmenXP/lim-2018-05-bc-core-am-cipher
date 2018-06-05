@@ -8,7 +8,8 @@ window.cipher = {
     
       for (let i = 0; i < string.length; i++) {
         codigoAscii= string.charCodeAt(i); 
-        if (codigoAscii >= 65 && codigoAscii <= 90) {
+        if (codigoAscii >= 65 && codigoAscii <= 90) 
+        {
           nuevoAscii = (codigoAscii - 65 + offset) % 26 + 65;
           letraAscii = String.fromCharCode(nuevoAscii);
         }
